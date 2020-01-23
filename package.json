@@ -1,5 +1,7 @@
 {
   "name": "turmasite",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "heroku": "^7.36.2"
+  }
 }
