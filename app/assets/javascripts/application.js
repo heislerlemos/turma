@@ -13,3 +13,13 @@
 //= require rails-ujs
 //= require turbolinks
 //= require_tree .
+
+
+
+Rails.ajax({
+  url: "/tokens",
+  type: "POST",
+  success: function(data) {
+    console.log(data);
+  }
+});
