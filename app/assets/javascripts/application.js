@@ -15,18 +15,8 @@
 //= require_tree .
 
 
-Rails.ajax({
-  url: "/tokens",
-  type: "POST",
-
-
- success: function(data) {
- 	console.log(data);
- 	console.log("its works !")
- }
-
-
-  
+document.addEventListener("DOMContentLoaded", () => {
+  if (document.querySelector(".chat")) {
+    window.chat = new Chat();
+  }
 });
-
-
