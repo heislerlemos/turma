@@ -15,11 +15,18 @@
 //= require_tree .
 
 
-
 Rails.ajax({
   url: "/tokens",
   type: "POST",
-  success: function(data) {
-    console.log(data);
-  }
+
+
+ success: function(data) {
+ 	console.log(data);
+ 	console.log("its works !")
+ }
+
+
+  
 });
+
+
