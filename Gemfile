@@ -13,7 +13,7 @@ gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 gem 'twilio-ruby'
-
+gem 'jwt', '~> 1.5', '>= 1.5.4'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
